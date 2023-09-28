@@ -2,7 +2,7 @@
     Dim nomcars As String() = {"Rio Sedán", "Versa", "Aveo", "Model S", "Gypsy Rose"}
     Dim precios As String() = {"$288,900", "$323,900", "$284,400", "$2,899,900", "$441,900"}
     Dim marcas As String() = {"KIA", "Nissan", "Chevrolet", "Tesla", "Lowrider"}
-    Dim imagenes As String() = {"D:\codes\recurses\1carro.png", "D:\codes\recurses\2carro.png", "D:\codes\recurses\3carro.png", "D:\codes\recurses\4carro.png", "D:\codes\recurses\5carro.png"}
+    Dim imagenes As String() = {"E:\codes\recurses\1carro.png", "E:\codes\recurses\2carro.png", "E:\codes\recurses\3carro.png", "E:\codes\recurses\4carro.png", "E:\codes\recurses\5carro.png"}
     Dim indice As Integer = 0
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load

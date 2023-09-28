@@ -1,0 +1,104 @@
+﻿Public Class FormCompra
+    Public Property precio As String
+    Public Property nombre As String
+    Public Property marca As String
+    Public Property imagen As Image
+    Dim iva As Integer
+    Dim preciof As Integer
+
+    Private Sub FormCompra_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        lblprecio.Text = precio
+        lblname.Text = nombre
+        lblmarca.Text = marca
+        ptbimage.Image = imagen
+
+        iva = precio * 10 / 100
+        preciof = precio + iva
+        Dim ivar As String = iva.ToString("N0")
+        Dim precior As String = preciof.ToString("N0")
+
+        lblp1.Text = precio
+        lbli1.Text = ivar
+        lblpf1.Text = precior
+
+
+
+    End Sub
+    Public Sub New()
+        Me.MaximizeBox = False
+        InitializeComponent()
+
+    End Sub
+
+    Private Sub lblprecio_Click(sender As Object, e As EventArgs) Handles lblprecio.Click
+
+    End Sub
+
+    Private Sub ptbimage_Click(sender As Object, e As EventArgs) Handles ptbimage.Click
+
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Me.Hide()
+        formauto.Visible = True
+    End Sub
+
+    Private Sub RadioButton1_CheckedChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub pnlefe_Paint(sender As Object, e As PaintEventArgs) Handles pnlefe.Paint
+
+    End Sub
+
+    Private Sub RadioButton1_CheckedChanged_1(sender As Object, e As EventArgs) Handles rbtnefe.CheckedChanged
+        If (rbtnefe.Checked = True) Then
+            pnlefe.Visible = True
+        End If
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        If (txtname.Text = "" And txtapea.Text = "" And txtapem.Text = "") Then
+            MessageBox.Show("Llena los datos primero", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        ElseIf (txtname.Text = "") Then
+            MessageBox.Show("Coloca un nombre(s)", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        ElseIf (txtapea.Text = "") Then
+            MessageBox.Show("Coloca un apellido p", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        ElseIf (txtapem.Text = "") Then
+            MessageBox.Show("Coloca un apellido m", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Else
+            pnlpago.Visible = True
+
+        End If
+    End Sub
+
+    Private Sub pnlpago_Paint(sender As Object, e As PaintEventArgs) Handles pnlpago.Paint
+
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        formpago.Visible = True
+
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+
+        pnlpago.Visible = False
+        pnlefe.Visible = False
+
+
+
+    End Sub
+
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles pnlcre.Paint
+
+    End Sub
+
+    Private Sub Label13_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub RadioButton2_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton2.CheckedChanged
+        pnlcre.Visible = True
+    End Sub
+End Class

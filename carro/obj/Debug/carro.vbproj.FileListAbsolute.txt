@@ -1,0 +1,41 @@
+C:\Users\gusta\source\repos\carro\carro\bin\Debug\carro.exe.config
+C:\Users\gusta\source\repos\carro\carro\bin\Debug\carro.exe
+C:\Users\gusta\source\repos\carro\carro\bin\Debug\carro.pdb
+C:\Users\gusta\source\repos\carro\carro\bin\Debug\carro.xml
+C:\Users\gusta\source\repos\carro\carro\obj\Debug\carro.vbproj.AssemblyReference.cache
+C:\Users\gusta\source\repos\carro\carro\obj\Debug\carro.Form1.resources
+C:\Users\gusta\source\repos\carro\carro\obj\Debug\carro.Resources.resources
+C:\Users\gusta\source\repos\carro\carro\obj\Debug\carro.vbproj.GenerateResource.cache
+C:\Users\gusta\source\repos\carro\carro\obj\Debug\carro.vbproj.CoreCompileInputs.cache
+C:\Users\gusta\source\repos\carro\carro\obj\Debug\carro.exe
+C:\Users\gusta\source\repos\carro\carro\obj\Debug\carro.xml
+C:\Users\gusta\source\repos\carro\carro\obj\Debug\carro.pdb
+C:\Users\gusta\source\repos\carro\carro\obj\Debug\carro.Form2.resources
+D:\codes\visual basic\carro\carro\bin\Debug\carro.exe.config
+D:\codes\visual basic\carro\carro\bin\Debug\carro.exe
+D:\codes\visual basic\carro\carro\bin\Debug\carro.pdb
+D:\codes\visual basic\carro\carro\bin\Debug\carro.xml
+D:\codes\visual basic\carro\carro\obj\Debug\carro.vbproj.AssemblyReference.cache
+D:\codes\visual basic\carro\carro\obj\Debug\carro.Resources.resources
+D:\codes\visual basic\carro\carro\obj\Debug\carro.vbproj.GenerateResource.cache
+D:\codes\visual basic\carro\carro\obj\Debug\carro.vbproj.CoreCompileInputs.cache
+D:\codes\visual basic\carro\carro\obj\Debug\carro.exe
+D:\codes\visual basic\carro\carro\obj\Debug\carro.xml
+D:\codes\visual basic\carro\carro\obj\Debug\carro.pdb
+D:\codes\visual basic\carro\carro\obj\Debug\carro.FormCompra.resources
+D:\codes\visual basic\carro\carro\obj\Debug\carro.formauto.resources
+D:\codes\visual basic\carro\carro\obj\Debug\carro.formpago.resources
+E:\codes\visual basic\carro\carro\bin\Debug\carro.exe.config
+E:\codes\visual basic\carro\carro\bin\Debug\carro.exe
+E:\codes\visual basic\carro\carro\bin\Debug\carro.pdb
+E:\codes\visual basic\carro\carro\bin\Debug\carro.xml
+E:\codes\visual basic\carro\carro\obj\Debug\carro.vbproj.AssemblyReference.cache
+E:\codes\visual basic\carro\carro\obj\Debug\carro.formauto.resources
+E:\codes\visual basic\carro\carro\obj\Debug\carro.FormCompra.resources
+E:\codes\visual basic\carro\carro\obj\Debug\carro.formpago.resources
+E:\codes\visual basic\carro\carro\obj\Debug\carro.Resources.resources
+E:\codes\visual basic\carro\carro\obj\Debug\carro.vbproj.GenerateResource.cache
+E:\codes\visual basic\carro\carro\obj\Debug\carro.vbproj.CoreCompileInputs.cache
+E:\codes\visual basic\carro\carro\obj\Debug\carro.exe
+E:\codes\visual basic\carro\carro\obj\Debug\carro.xml
+E:\codes\visual basic\carro\carro\obj\Debug\carro.pdb
